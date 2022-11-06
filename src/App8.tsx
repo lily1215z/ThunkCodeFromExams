@@ -1,12 +1,10 @@
 import axios from 'axios'
-
-
-// страничка для экзамена
-
 import React, {useEffect} from 'react'
 import {applyMiddleware, combineReducers, legacy_createStore as createStore} from 'redux'
 import thunk, {ThunkAction, ThunkDispatch} from 'redux-thunk';
 import {TypedUseSelectorHook, useDispatch, useSelector} from 'react-redux';
+
+// ==================== Чт-2(8)
 
 // Types
 type PostType = {
